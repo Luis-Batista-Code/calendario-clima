@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# 📅 Calendário & Clima 🌤️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Image](https://github.com/user-attachments/assets/4b0e1ad4-2997-452b-9e57-4619a6ab78c3)
 
-## Available Scripts
+Um projeto simples e funcional em **React + TypeScript** que combina um calendário interativo com dados reais do clima 🌦️ usando uma API pública. 
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 📆 Visualização de calendário mensal com navegação entre meses  
+- 📝 Marcação de datas com detalhes personalizados  
+- 🗑️ Remoção fácil das marcações com ícone de lixeira  
+- 🌍 Busca automática da localização do usuário para exibir o clima local em tempo real  
+- 💬 Modal popup para inserir detalhes ao marcar datas, sem alertas invasivos  
+- 🎨 Design simples e moderno usando Tailwind CSS para estilização
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 💻 Tecnologias usadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React  
+- TypeScript  
+- Tailwind CSS  
+- API do [WeatherAPI](https://www.weatherapi.com/) para dados climáticos  
+- date-fns para manipulação de datas  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 O que aprendi
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este projeto me ajudou a melhorar muito o entendimento de:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Como consumir e lidar com APIs externas em React (fetch, async/await)  
+- Uso do Geolocation para pegar localização do usuário  
+- Gerenciamento de estado com hooks e interação entre componentes  
+- Criação de modais customizados para melhor experiência do usuário  
+- Manipulação avançada de datas com date-fns  
 
-### `npm run eject`
+Cada desafio enfrentado trouxe um aprendizado novo e abriu portas para entender melhor integração de dados dinâmicos em aplicações React. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚡ Como rodar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone o repositório  
+```bash
+git clone https://github.com/seuusuario/calendario-clima.git
+npm install
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🎯 Próximos passos
+Persistência das marcações usando localStorage ou banco de dados
+Previsão do clima para os próximos dias no calendário
+Customização avançada das marcações (cores, categorias)
+Responsividade e melhor acessibilidade
 
-## Learn More
+🤝 Contribuições
+Contribuições são super bem-vindas! Faça um fork, crie uma branch com sua feature, e abra um pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+📝 Licença
+MIT License © [Luis Felipe]
+Feito com ❤️ e muita vontade de aprender!
