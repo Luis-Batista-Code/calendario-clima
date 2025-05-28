@@ -55,9 +55,11 @@ Persistência das marcações usando localStorage ou banco de dados
 Previsão do clima para os próximos dias no calendário
 Customização avançada das marcações (cores, categorias)
 Responsividade e melhor acessibilidade
+
 ---
 🤝 Contribuições
 Contribuições são super bem-vindas! Faça um fork, crie uma branch com sua feature, e abra um pull request.
+
 ---
 📝 Licença
 MIT License © [Luis Felipe]
