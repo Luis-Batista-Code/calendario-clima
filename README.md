@@ -45,7 +45,7 @@ Cada desafio enfrentado trouxe um aprendizado novo e abriu portas para entender 
 
 1. Clone o repositório  
 ```bash
-git clone https://github.com/seuusuario/calendario-clima.git
+git clone https://github.com/Luis-Batista-Code/calendario-clima.git
 npm install
 npm start
 ```
